@@ -75,8 +75,8 @@ Based on the theoretical and empirical analysis:
 
 | **Algorithm**               | **Time Complexity (Worst Case)** | **Time Complexity (Average Case)** | **Space Complexity** |
 |-----------------------------|-----------------------------------|-------------------------------------|----------------------|
-| **Deterministic (Median of Medians)** | \(O(n)\)                          | \(O(n)\)                            | \(O(\log n)\)         |
-| **Randomized (Quickselect)**         | \(O(n^2)\)                        | \(O(n)\)                            | \(O(\log n)\)         |
+| **Deterministic (Median of Medians)** | \(O(n)\)                          | \(O(n)\)                            | \(O(log n)\)         |
+| **Randomized (Quickselect)**         | \(O(n^2)\)                        | \(O(n)\)                            | \(O(log n)\)         |
 
 ## Code Repository:
 
