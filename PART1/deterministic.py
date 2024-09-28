@@ -1,3 +1,13 @@
+"""
+This code implements the deterministic selection algorithm, also known as the Median of Medians algorithm, 
+to find the k^th smallest element in an unsorted array in worst-case linear time (O(n)). The algorithm works 
+by recursively selecting a good pivot to partition the array, ensuring balanced partitions and thus maintaining 
+linear time complexity. The implementation is efficient and handles edge cases, including arrays with duplicate elements. 
+The code includes a partition function for rearranging elements around the chosen pivot, the median_of_medians function 
+for recursively finding the k^th smallest element, and a test_median_of_medians function that runs multiple test cases
+to verify the correctness and robustness of the algorithm.
+"""
+
 def partition(arr, low, high, pivot_index):
     """
     Partition the array around the pivot value.
